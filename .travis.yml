@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: vef89GM3jZmbpRpz6lWyscSTVlC/R0t0hWDaSdsIzdUe0uW3nXzTdc4TxrLXJiGQKw/NWIVM09YyDsWtsMjGhcBLL44c1imjp7p7ANzVvRAK6TQLcZNYOzYa5sZNATLIdSWC9oPSgGr916TRPFw+gxITfTQ1oiUTGjw4800hVbOOSULaWbjZhCQOt/v/N0HlYVyCjt01c1vmdZ4QT979eRr4gL0jPEpyrhhqsE2zkSo4uRUUMI+Sl8E33fth5VK1Sa7BcRg/843H7sVy4sUAAxDGfbqogOB3ID4z9am4pZNHMDwo3wP0OvzRzpaoO5a75WG68rVX9Em8oQ47M0N5KKx8E5/wEs1WJ68M8FyP8yDkGkYqi7VZ6R7VQwZW3YGeQBGZr9CpGKcBCcaXSoMpa3dS/wXHZ50mW7fdTSD9PJ/qjUe/uYtGd+zKVLgFKSzEp8SxW8q9yUKUlHWYdTZGG4aSPp3LFkpA/hXrEQwUPvo7VtHhjEb4oQU2ZyXXUnUUlSzWILRxls3alze8nN+VmYuRuX0dcv3oOp0MdBXUWnciR/cJXLw9dD9IC9wu4UW/Twa68/XrbBVD3wRcCr2WXs2uFB048iXGySu+Pcc3gAUM7DAeLqnDUUCrcFtXaFJiDdv9Zz6QERlwtMzPXSgfR636HqywA1xHzBAHG9liQOE=
+  app: https://vast-journey-76129.herokuapp.com/
+  on:
+    repo: kim-josh/node-shopping-list-integration-tests
